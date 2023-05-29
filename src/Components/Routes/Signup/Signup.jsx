@@ -34,7 +34,7 @@ const Signup = () => {
       try {
         setLoading(true);
         let res = await axios.post(
-          "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyB02lkuFzq3FvfakkGwF66p3OBEJaqUC4g",
+          "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key= AIzaSyCdORkp1dsGc6FajuLGDNimk9pTqyronlQ ",
           obj
         );
         alert('Account created successfully')
